@@ -6,6 +6,8 @@ A Rock Paper Scissors game exposed as a REST API, built with PHP and Symfony.
 
 This API lets clients play Rock Paper Scissors over HTTP. A client creates a game with `POST /games`, then submits moves with `POST /games/{id}/moves`.
 
+All requests and responses use JSON.
+
 ## Prerequisites
 
 - PHP >= 8.2
